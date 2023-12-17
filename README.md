@@ -1,13 +1,4 @@
-[![Quality gate](https://github.com/M4R774/bobweb2/actions/workflows/quality_gate.yml/badge.svg)](https://github.com/M4R774/bobweb2/actions/workflows/quality_gate.yml)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=M4R774_bobweb2&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=M4R774_bobweb2)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=M4R774_bobweb2&metric=coverage)](https://sonarcloud.io/summary/new_code?id=M4R774_bobweb2)
-[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=M4R774_bobweb2&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=M4R774_bobweb2)
-
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=M4R774_bobweb2&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=M4R774_bobweb2)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=M4R774_bobweb2&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=M4R774_bobweb2)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=M4R774_bobweb2&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=M4R774_bobweb2)
-
-# bobweb2
+# Django-easy
 
 Bobweb on erään kaveriporukan oma chättibotti. 
 
@@ -95,7 +86,7 @@ ja venv.**
 3. Kloonaa repository omalle koneellesi
 
 ```sh
-git clone git@github.com:M4R774/bobweb2.git
+git clone git@github.com:M4R774/Django-easy.git
 ```
 
 4. Jos et käytä PyCharmia, joudut myös asentamaan riippuvuudet manuaalisesti ja
@@ -104,7 +95,7 @@ parilla klikkauksella.
 
 ```sh
 # Asenna käytetyt kirjastot
-cd bobweb2
+cd Django-easy
 pip install -r requirements.txt
 ```
 
@@ -226,7 +217,7 @@ Käy asettamassa PyCharmiin Django-asetukset. Ne löydät asetukset-valikosta po
 | Asetus                          | Selite                                                              |
 |---------------------------------|---------------------------------------------------------------------|
 | _Enable Django Support_         | ☑ (valittu)                                                         |
-| _Django project root_           | Tähän polku projektin juuri-kansioon (_bobweb2_-kansio)             |
+| _Django project root_           | Tähän polku projektin juuri-kansioon (_Django-easy_-kansio)             |
 | _Settings_                      | Tähän polku settings.py moduuliin, eli `bobweb\web\web\settings.py` |
 | _Do not use Django test runner_ | ☐ (tyhjä)                                                           |
 | _Manage script_                 | Polku manage.py moduuliin, eli `bobweb\web\manage.py`               |

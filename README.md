@@ -86,7 +86,7 @@ ja venv.**
 3. Kloonaa repository omalle koneellesi
 
 ```sh
-git clone git@github.com:M4R774/Django-easy.git
+git clone https://github.com/matsudaWWW/Django-easy.git
 ```
 
 4. Jos et käytä PyCharmia, joudut myös asentamaan riippuvuudet manuaalisesti ja
